@@ -1,0 +1,103 @@
+@import url(./classes.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-img {
+    background-image: url(../imgs/bg.jpg);
+}
+
+.cont-gen {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.gap-1p {
+    gap: 1px;
+}
+
+.x {
+    color: red;
+}
+
+.o {
+    color: green;
+}
+
+.xo {
+    color: white;
+}
+
+.m-w-cont {
+    max-width: 30rem;
+}
+
+#banner-wins {
+    transition: 1s all ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.btn-game {
+    min-height: 8rem;
+    max-height: 8rem;
+    min-width: 7rem;
+    font-size: 5rem;
+
+    &:hover {
+        background-color: rgb(247, 247, 247);
+    }
+}
+
+.cont-results {
+    @media screen and (width > 768px) {
+        flex-direction: row;                    
+    }
+}
+
+.bg-white-rgba {
+    background-color: rgb(249, 249, 249);
+}
+
+.bg-black-rgba {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-4 {
+    font-size: 20rem;
+}
+
+.animate-top {
+    animation: animatetop 1.5s;
+}
+
+@keyframes animatetop {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.animate-bottom {
+    animation: animatebottom 1.5s;
+}
+
+@keyframes animatebottom {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}

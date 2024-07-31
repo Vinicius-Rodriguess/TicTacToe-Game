@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <script src="./src/js/main.js" type="module" defer></script>
+    <link rel="stylesheet" href="./src/css/main.css">
+    
+</head>
+
+<body>
+    <div class="w-full min-h-screen bg-img bg-cover bg-center bg-no-repeat">
+        <div class="w-full min-h-screen cont-gen backdrop-blur-1 flex flex-col gap-2 justify-center items-center p-1">
+            
+            <div data-animate="top" class="w-full bg-white flex justify-center items-center gap-2 p-1 rounded-1 shadow-3 m-w-cont">
+                <div data-animate="left" class="flex flex-1 p-.5 flex-col ga-.5 items-center justify-center">
+                    <span class="text-2 font-bold text-red w-full bg-white-rgba text-center">X</span>
+                    <span class="text-2" id="scoreX">0</span>
+                </div>
+                <div class="flex flex-1 p-.5 flex-col ga-.5 items-center justify-center">
+                    <span class="text-2 font-bold text-green w-full bg-white-rgba text-center">O</span>
+                    <span class="text-2" id="scoreO">0</span>
+                </div>
+                <div class="flex flex-1 p-.5 flex-col ga-.5 items-center justify-center">
+                    <span class="text-2 font-bold w-full bg-white-rgba text-center">XO</span>
+                    <span class="text-2" id="scoreXO">0</span>
+                </div>
+            </div>
+            <div data-animate="bottom" class="relative w-full bg-white p-1 flex m-w-cont justify-center items-center rounded-1 shadow-3">
+                <div class="w-full grid grid-cols-3 bg-black gap-1p">
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                    <button
+                        class="p-1 flex-1 border-none cursor-pointer flex justify-center items-center bg-white btn-game text-center"></button>
+                </div>
+                <div id="banner-wins" class="hidden absolute inset-0 rounded-1 bg-black-rgba flex justify-center items-center text-center text-4 text-white">0</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
