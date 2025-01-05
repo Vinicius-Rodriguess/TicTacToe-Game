@@ -1,40 +1,72 @@
-# Jogo da Velha
+# 🎮 **Jogo da Velha**
 
-## Visão Geral
-O projeto Jogo da Velha oferece uma solução completa para jogar o clássico jogo da velha. Esta ferramenta interativa permite aos usuários:
+O projeto **Jogo da Velha** é uma aplicação interativa que permite aos usuários jogarem o clássico jogo da velha (ou tic-tac-toe). O jogo é projetado para acompanhar a pontuação e identificar automaticamente o vencedor de cada rodada.
 
-- **Jogar um Clássico Jogo da Velha:** Participar de um jogo padrão em uma grade 3x3, onde os jogadores alternam turnos para marcar Xs e Os.
-- **Rastrear Pontuações dos Jogadores:** Monitorar e exibir as pontuações de ambos os jogadores, incluindo vitórias e empates.
-- **Redefinir Automaticamente o Jogo:** Após o término de uma partida, o tabuleiro é redefinido para uma nova rodada de jogo.
+---
 
-Se você deseja jogar Jogo da Velha de forma casual ou acompanhar o desempenho dos jogadores ao longo de várias rodadas, este projeto oferece uma experiência robusta e amigável ao usuário.
+## 🚀 **Funcionalidades**
 
-## Funcionalidades
-- **Tabuleiro de Jogo Interativo:** Botões clicáveis em uma grade 3x3 para que os jogadores façam suas jogadas.
-- **Rastreamento de Pontuação:** Acompanha vitórias e empates para ambos os jogadores.
-- **Redefinição Automática:** Redefine o tabuleiro após cada jogo, pronto para uma nova rodada.
-- **Atualizações em Tempo Real:** Exibe pontuações e resultados do jogo dinamicamente.
+- **Jogabilidade Interativa**: Dois jogadores podem alternar entre os turnos jogando com "X" e "O".
+- **Detecção Automática de Vitória**: O sistema verifica e anuncia automaticamente o vencedor ou um empate ao final de cada rodada.
+- **Placar Atualizado em Tempo Real**: Pontuação dos jogadores e empates são exibidos e atualizados ao longo do jogo.
+- **Reinício Automático**: Após cada rodada, o tabuleiro é reiniciado automaticamente para uma nova partida.
+
+---
+
+## 🛠️ **Tecnologias Utilizadas**
+
+- **HTML5**: Estrutura da interface.
+- **CSS3**: Estilização e animações visuais.
+- **JavaScript (ES6)**: Lógica do jogo e manipulação do DOM.
+
+---
+
+## 🔧 **Como Executar o Projeto**
 
 <a href="https://vinicius-rodriguess.github.io/TicTacToe-Game" target="_blank">Clique aqui para testar o projeto!</a>
-<p></p>
+
 <img src="./src/imgs/tictactoe.png"/>
 
+Ou então:
 
-# TicTacToe Game
+1. **Clone este Repositório**:
 
-## Overview
-The TicTacToe Game project offers a complete solution for playing the classic Tic-Tac-Toe game. This interactive tool enables users to:
+   ```bash
+   git clone https://github.com/Vinicius-Rodriguess/TicTacToe-Game.git
+   cd jogo-da-velha
+   ```
 
-- **Play a Classic Game of Tic-Tac-Toe:** Engage in a standard 3x3 grid game where players alternate turns to mark Xs and Os.
-- **Track Player Scores:** Monitor and display scores for both players, including wins and draws.
-- **Automatically Reset the Game:** After a game ends, the board resets for a new round of play.
+2. **Abra o Arquivo no Navegador**:
 
-Whether you're looking to play Tic-Tac-Toe casually or track player performance over multiple rounds, this project provides a robust and user-friendly experience.
+   Não é necessário instalar dependências. Basta abrir o arquivo `index.html` em qualquer navegador moderno.
 
-## Features
-- **Interactive Game Board:** Clickable buttons on a 3x3 grid for players to make their moves.
-- **Score Tracking:** Keeps track of wins and draws for both players.
-- **Automatic Reset:** Resets the board after each game, ready for a new round.
-- **Real-time Updates:** Displays scores and game results dynamically.
+---
 
-<a href="https://vinicius-rodriguess.github.io/TicTacToe-Game" target="_blank">Click here to test the project!</a>
+## 🖥️ **Exemplo de Uso**
+
+1. **Inicie o Jogo**:
+   - Clique em qualquer célula vazia para fazer sua jogada.
+
+2. **Acompanhe o Placar**:
+   - Veja a pontuação de cada jogador e a quantidade de empates atualizada em tempo real.
+
+3. **Continue Jogando**:
+   - Após cada rodada, o tabuleiro é reiniciado automaticamente para você jogar novamente.
+
+---
+
+## ✅ **Melhorias Futuras**
+
+- Implementar um modo de jogo contra a IA.
+- Adicionar opções de personalização de temas e estilos.
+- Disponibilizar suporte para dispositivos móveis com design responsivo aprimorado.
+
+---
+
+## 👨‍💻 **Autor**
+
+**Vinicius Rodrigues**
+
+- GitHub: [Vinicius-Rodriguess](https://github.com/Vinicius-Rodriguess)
+- Email: rodrigues.vini.2004@gmail.com
+
